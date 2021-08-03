@@ -1,0 +1,15 @@
+.check-display-pass{
+    background-color:green; 
+    border: 1px solid black;
+    color:white;
+    text-align:center;
+    font-size:25px
+}
+
+.check-display-fail{
+    background-color:red; 
+    border: 1px solid black;
+    color:white;
+    text-align:center;
+    font-size:25px
+}

@@ -1,0 +1,22 @@
+{
+
+    "manifest_version": 2,
+    "name": "Project Whitelist Requirement Checker",
+    "version": "0.1",
+  
+    "description": "See if a BOINC project is able to be whitelisted on Gridcoin or if a whitelisted project should be greylisted. Go to the 40 day stats view on BOINCStats on a project to see these checks",
+  
+    "icons": {
+      "48": "icons/checkmark-48.png",
+      "96": "icons/checkmark-96.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.boincstats.com/stats/*/project/detail/lastDays"],
+        "js": ["main.js"],
+        "css": ["main.css"]
+      }
+    ]
+  
+  }
