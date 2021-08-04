@@ -13,3 +13,11 @@ For Chrome users: you can either:
 # Bookmark
 
 Go to the [bookmark_version.js file](bookmark_version.js) and copy it ([may be easier to copy from the raw file](https://raw.githubusercontent.com/RoboticMind/Project-Whitelist-Checker/main/bookmark_version.js)). Create a bookmark using that entire text as if it were a link. 
+
+# Screenshots
+
+## Example Passing Both Checks
+![Screenshot showing two green banners above a table of the 40 day stats](screenshots/asteroids-at-home-example.png)
+
+## Example Failing One Check
+![Screenshot showing one red banner and one gree banner above the table of the 40 day stats](screenshots/gpugrid-example.png)
