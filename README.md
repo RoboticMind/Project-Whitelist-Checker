@@ -1,7 +1,10 @@
 # Project-Whitelist-Checker
-Checks if a BOINC project can be added to the Gridcoin whitelist or if a whitelisted project should be greylisted.
+Checks if a BOINC project can be added to the Gridcoin whitelist (by stats requirements) or if a whitelisted project should be greylisted.
 
 Use by going to the "last 40 days" stats for a project on BOINCStats (as bookmark you will also need to click the bookmark there too)
+
+Note: this can only check zero credit days and work availability score. There are other
+requirements that this cannot check
 
 # Browser Extension
 
