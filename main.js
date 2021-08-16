@@ -61,7 +61,7 @@ for (number of rowData.slice(0,7)) {
 }
 
 const avg40days = sum40days/40;
-const avg7days = sum7days/40;
+const avg7days = sum7days/7;
 
 const ratio = avg7days/avg40days; 
 
