@@ -20,7 +20,7 @@ Go to the [bookmark_version.js file](bookmark_version.js) and copy it ([may be e
 # Screenshots
 
 ## Example Passing Both Checks
-![Screenshot showing two green banners above a table of the 40 day stats](screenshots/asteroids-at-home-example.png)
+![Screenshot showing two green banners above a table of the 40 day stats](screenshots/einstein-at-home-example.png)
 
 ## Example Failing One Check
-![Screenshot showing one red banner and one gree banner above the table of the 40 day stats](screenshots/gpugrid-example.png)
+![Screenshot showing one green banner and one red banner above the table of the 40 day stats](screenshots/gpugrid-example.png)
