@@ -2,7 +2,7 @@
 
     "manifest_version": 2,
     "name": "Project Whitelist Requirement Checker",
-    "version": "0.2",
+    "version": "0.3",
   
     "description": "See if a BOINC project is able to be whitelisted on Gridcoin or if a whitelisted project should be greylisted. Go to the 40 day stats view on BOINCStats on a project to see these checks",
   

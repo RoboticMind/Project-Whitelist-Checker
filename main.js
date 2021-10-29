@@ -34,20 +34,21 @@ console.log("ZCD: " + zcdCount)
 
 var zcdDiv = document.createElement("div")
 
-var zcdText = document.createTextNode("ZCD is " + zcdCount);
+var zcdText = "ZCD is " + zcdCount;
 var br = document.createElement("br");
 
-zcdDiv.appendChild(zcdText)
-zcdDiv.appendChild(br)
 if (zcdCount <= 7){
+    zcdText += " (pass) "
     zcdDiv.classList.add("check-display-pass");
     console.log("ZCD check passed")
 } else {
+    zcdText += " (fail) "
     zcdDiv.classList.add("check-display-fail");
     console.log("ZCD check failed")
 }
-
-tableDiv.prepend(zcdDiv)
+zcdDiv.appendChild(document.createTextNode(zcdText));
+zcdDiv.appendChild(br);
+tableDiv.prepend(zcdDiv);
 
 
 //WAS Check
@@ -66,20 +67,22 @@ const avg7days = sum7days/7;
 const ratio = avg7days/avg40days; 
 
 //display results for WAS
-console.log("WAS " + ratio)
+console.log("WAS " + ratio);
 
 var wasDiv = document.createElement("div")
 
-var wasText = document.createTextNode("WAS ratio is " + ratio.toFixed(4) + "…")
+var wasText = "WAS ratio is " + ratio.toFixed(4) + "…";
 var br = document.createElement("br");
 
-wasDiv.appendChild(wasText)
-wasDiv.appendChild(br)
 if (ratio >= 0.1){
+    wasText += " (pass) ";
     wasDiv.classList.add("check-display-pass");
-    console.log("WAS check passed")
+    console.log("WAS check passed");
 } else {
+    wasText += " (fail) "
     wasDiv.classList.add("check-display-fail");
-    console.log("WAS check failed")
+    console.log("WAS check failed");
 }
+wasDiv.appendChild(document.createTextNode(wasText));
+wasDiv.appendChild(br);
 tableDiv.prepend(wasDiv)
