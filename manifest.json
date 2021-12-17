@@ -2,7 +2,7 @@
 
     "manifest_version": 2,
     "name": "Project Whitelist Requirement Checker",
-    "version": "0.3",
+    "version": "0.4",
   
     "description": "See if a BOINC project is able to be whitelisted on Gridcoin or if a whitelisted project should be greylisted. Go to the 40 day stats view on BOINCStats on a project to see these checks",
   
@@ -14,7 +14,12 @@
     "content_scripts": [
       {
         "matches": ["*://*.boincstats.com/stats/*/project/detail/lastDays"],
-        "js": ["main.js"],
+        "js": ["boincstats.js"],
+        "css": ["main.css"]
+      },
+      {
+        "matches": ["*://*.boinc.netsoft-online.com/e107_plugins/boinc/bp.php*"],
+        "js": ["boinc-combined-statistics.js"],
         "css": ["main.css"]
       }
     ]
