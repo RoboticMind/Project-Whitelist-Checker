@@ -1,7 +1,11 @@
 # Project-Whitelist-Checker
 Checks if a BOINC project can be added to the Gridcoin whitelist (by stats requirements) or if a whitelisted project should be greylisted.
 
-Use by going to the "last 40 days" stats for a project on BOINCStats (as bookmark you will also need to click the bookmark there too)
+Use it by 
+1. Go to either: 
+    * the "last 40 days" stats for a project on [BOINCStats](https://www.boincstats.com/) 
+    * a project on [BOINC Combined Statistics](https://boinc.netsoft-online.com/)
+2. If using it it as bookmark, you will also need to click the bookmark once on that page (every time)
 
 Note: this can only check zero credit days and work availability score. There are other
 requirements that this cannot check
@@ -19,8 +23,15 @@ Go to the [bookmark_version.js file](bookmark_version.js) and copy it ([may be e
 
 # Screenshots
 
-## Example Passing Both Checks
+## BOINCStats 
+
+### Example Passing Both Checks
 ![Screenshot showing two green banners above a table of the 40 day stats](screenshots/einstein-at-home-example.png)
 
-## Example Failing One Check
+### Example Failing One Check
 ![Screenshot showing one green banner and one red banner above the table of the 40 day stats](screenshots/gpugrid-example.png)
+
+## BOINC Combined Statistics
+
+### Example Passing Both Checks
+![Screenshot showing two green banners above a table with information about a project](screenshots/boinc-combined-statistics-example.png)
