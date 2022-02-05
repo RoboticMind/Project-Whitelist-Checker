@@ -5,7 +5,7 @@ Use it by
 1. Go to either: 
     * the "last 40 days" stats for a project on [BOINCStats](https://www.boincstats.com/) 
     * a project on [BOINC Combined Statistics](https://boinc.netsoft-online.com/)
-2. If using it it as bookmark, you will also need to click the bookmark once on that page (every time)
+2. If using it it as bookmark, you will also need to click the bookmark when on that page (every time)
 
 Note: this can only check zero credit days and work availability score. There are other
 requirements that this cannot check
