@@ -15,8 +15,15 @@ requirements that this cannot check
 For Firefox users: you can install by going to [the addon store page for this extension here](https://addons.mozilla.org/en-US/firefox/addon/whitelist-requirement-checker/)
 
 For Chrome users: you can either:
+* use the userscript
 * use the bookmark version 
 * (not recommended in general for security reasons) clone/download this repo,  go to `chrome://extensions`, enable developer mode, and click load unpacked selecting the folder of the clone
+
+# Userscript
+
+1. Install tampermonkey. Instruction to install are available at <https://www.tampermonkey.net/>.
+2. Once that's done, go to [this page](https://gist.github.com/RoboticMind/9329d339049628e1a6d1c8f22e910e5c/raw/6e993d9cea9787a77257b21daeb09b70ea9854e6/project-whitelist-check.user.js) and click install
+
 # Bookmark
 
 Go to the [bookmark_version.js file](bookmark_version.js) and copy it ([may be easier to copy from the raw file](https://raw.githubusercontent.com/RoboticMind/Project-Whitelist-Checker/main/bookmark_version.js)). Create a bookmark using that entire text as if it were a link. 
